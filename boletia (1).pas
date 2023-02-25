@@ -112,8 +112,8 @@ begin
         Ticket:= (01);
         writeln ('--------------------------------------------------------------------');
         writeln ('PROCESANDO....');
-        pasaje:= 'a. BOLETO SIMPLE  | AMARILLO  |    1 VIAJE EN METRO';
-        viajes := 'VIAJES EN METRO';
+        pasaje:= ('a. BOLETO SIMPLE  | AMARILLO  |    1 VIAJE EN METRO');
+        viajes := ('VIAJES EN METRO');
 	end;
 
       'b':
@@ -132,16 +132,16 @@ begin
 
          begin
           writeln ('HA SELECCIONADO VIAJE EN METRO');
-          viajes := 'VIAJE EN METRO';
+          viajes := ('VIAJE EN METRO');
           writeln ('|  B. INTEGRADO   |   AMARILLO  |  1 VIAJE EN METRO  |');
           pasaje := 'b. INTEGRADO   |   AMARILLO  |  1 VIAJE EN METRO  |';
          end
         else if viaje = 2 then
          begin
            writeln ('HA SELECCIONADO VIAJE EN METROBUS');
-           viajes := 'VIAJE EN METROBUS';
+           viajes := ('VIAJE EN METROBUS');
            writeln ('|  b. INTEGRADO   |  AMARILLO   |  1 VIAJE EN METROBUS  |');
-           pasaje := '|  b. INTEGRADO   |  AMARILLO   |  1 VIAJE EN METROBUS  |';
+           pasaje := ('|  b. INTEGRADO   |  AMARILLO   |  1 VIAJE EN METROBUS  |');
          end
         else
          begin
@@ -151,9 +151,9 @@ begin
         writeln ('FACTURACIàN');
         writeln ('PRECIO DEL BOLETO: 4,00 BS');
 
-        preciot:= ( 4.00 * boletos));
+        preciot:= ( 4.00 * boletos);
         write ('PRECIO TOTAL A PAGAR: ', preciot:5:2);
-        writeln (' BS'));
+        writeln (' BS');
         ticket:= (01);
     	writeln ('-----------------------------------------------------------------------------------------------------');
         delay (2500);
@@ -171,8 +171,8 @@ begin
         Ticket:= (01);
         writeln ('-------------------------------------------------------------------------');
         writeln ('PROCESANDO....');
-        pasaje:= 'c. IDA Y VUELTA  |  AMARILLO  |  2 VIAJES EN METRO  |';
-        viajes := 'VIAJES EN METRO';
+        pasaje:= ('c. IDA Y VUELTA  |  AMARILLO  |  2 VIAJES EN METRO  |');
+        viajes := ('VIAJES EN METRO');
         delay (2500);
         end;
 
@@ -192,16 +192,16 @@ begin
 
          begin
           writeln ('HA SELECCIONADO VIAJE EN METRO');
-          viajes := 'VIAJE EN METRO';
+          viajes := ('VIAJE EN METRO');
           writeln ('|  d.IDA Y VUELTA INTEGRADO   |    AMARILLO  |  2 VIAJES EN METRO   |');
           pasaje := ' d. IDA Y VUELTA INTEGRADO   |    AMARILLO  |  2 VIAJE EN METRO  |';
          end
         else if viaje = 2 then
          begin
            writeln ('HA SELECCIONADO VIAJE EN METROBUS');
-           viajes := 'VIAJE EN METROBUS';
+           viajes := ('VIAJE EN METROBUS');
            writeln ('| d.IDA Y VUELTA INTEGRADO   |    AMARILLO  | 2 VIAJES EN METROBUS  |');
-           pasaje := '|  d.IDA Y VUELTA INTEGRADO   |    AMARILLO  | 2 VIAJES EN METROBUS  |';
+           pasaje := ('|  d.IDA Y VUELTA INTEGRADO   |    AMARILLO  | 2 VIAJES EN METROBUS  |');
          end
         else
          begin
@@ -232,8 +232,8 @@ begin
         Ticket:= (01);
         writeln ('------------------------------------------------------------------------------------------------');
         writeln ('PROCESANDO....');
-        pasaje:= '|  e. MULTIABONO  |  NARANJA  |   10 VIAJES EN METRO';
-        viajes := 'VIAJES EN METRO';
+        pasaje:= ('|  e. MULTIABONO  |  NARANJA  |   10 VIAJES EN METRO');
+        viajes := ('VIAJES EN METRO');
         delay (2500);
 	end;
 
@@ -253,16 +253,16 @@ begin
 
          begin
           writeln ('HA SELECCIONADO VIAJE EN METRO');
-          viajes := 'VIAJE EN METRO';
+          viajes := ('VIAJE EN METRO');
           writeln ('|  f.MULTIABONO INTEGRADO   |    NARANJA  |  10 VIAJES EN METRO     |');
-          pasaje := '|  f.MULTIABONO INTEGRADO   |    NARANJA  |  10 VIAJES EN METRO  |';
+          pasaje := ('|  f.MULTIABONO INTEGRADO   |    NARANJA  |  10 VIAJES EN METRO  |');
          end
         else if viaje = 2 then
          begin
            writeln ('HA SELECCIONADO VIAJE EN METROBUS');
-           viajes := 'VIAJE EN METROBUS';
+           viajes := ('VIAJE EN METROBUS');
            writeln ('|  f.MULTIABONO INTEGRADO   |    NARANJA   |   10 VIAJES EN METROBUS   |');
-           pasaje := '| f.MULTIABONO INTEGRADO   |    NARANJA   |   10 VIAJES EN METROBUS   |';
+           pasaje := ('| f.MULTIABONO INTEGRADO   |    NARANJA   |   10 VIAJES EN METROBUS   |');
          end
         else
          begin
@@ -293,8 +293,8 @@ begin
         Ticket:= (01);
         writeln ('----------------------------------------------------------');
         writeln ('PROCESANDO....');
-        pasaje:= '|  g. ESTUDIANTIL SIMPLE  |  AZUL   |   10 VIAJES EN METRO  |';
-        viajes := 'VIAJES EN METRO';
+        pasaje:= ('|  g. ESTUDIANTIL SIMPLE  |  AZUL   |   10 VIAJES EN METRO  |');
+        viajes := ('VIAJES EN METRO');
         delay (2500);
         end;
 
@@ -314,16 +314,16 @@ begin
 
          begin
           writeln ('HA SELECCIONADO VIAJE EN METRO');
-          viajes := 'VIAJE EN METRO';
+          viajes := ('VIAJE EN METRO');
           writeln ('|  h. ESTUDIANTIL INTEGRADO   |     AZUL    |    10 VIAJES EN METRO      |');
-          pasaje := '  h. ESTUDIANTIL INTEGRADO   |     AZUL    |    10 VIAJES EN METRO  ';
+          pasaje := ('  h. ESTUDIANTIL INTEGRADO   |     AZUL    |    10 VIAJES EN METRO  ');
          end
         else if viaje = 2 then
          begin
            writeln ('HA SELECCIONADO VIAJE EN METROBUS');
-           viajes := 'VIAJE EN METROBUS';
+           viajes := ('VIAJE EN METROBUS');
            writeln ('|  h. ESTUDIANTIL INTEGRADO   |     AZUL    |   20 VIAJES EN METROBUS   |');
-           pasaje := '| h. ESTUDIANTIL INTEGRADO   |     AZUL    |   20 VIAJES EN METROBUS   |';
+           pasaje := ('| h. ESTUDIANTIL INTEGRADO   |     AZUL    |   20 VIAJES EN METROBUS   |');
          end
         else
          begin
@@ -359,23 +359,23 @@ begin
 
          begin
           writeln ('HA SELECCIONADO 20 VIAJES');
-          viajes := '20 VIAJES';
+          viajes := ('20 VIAJES');
           writeln ('|  i.METROTARJETA  |   ROJO  |   20 VIAJES    |');
-          pasaje := '  i.METROTARJETA  |   ROJO  |   20 VIAJES   ';
+          pasaje := ('  i.METROTARJETA  |   ROJO  |   20 VIAJES   ');
          end
         else if viaje = 2 then
          begin
            writeln ('HA SELECCIONADO 30 VIAJES');
-           viajes := '30 VIAJES';
+           viajes := ('30 VIAJES');
            writeln ('|  i.METROTARJETA  |   ROJO  |   30 VIAJES    |');
-           pasaje := '| i.METROTARJETA  |   ROJO  |   30 VIAJES    |';
+           pasaje := ('| i.METROTARJETA  |   ROJO  |   30 VIAJES    |');
          end
          else if viaje = 3 then
           begin
            writeln ('HA SELECCIONADO 40 VIAJES');
-           viajes := '40 VIAJES';
+           viajes := ('40 VIAJES');
            writeln ('|  i.METROTARJETA  |   ROJO  |   40 VIAJES    |');
-           pasaje := '| i.METROTARJETA  |   ROJO  |   40 VIAJES    |';
+           pasaje := ('| i.METROTARJETA  |   ROJO  |   40 VIAJES    |');
            end
 
         else
@@ -412,23 +412,23 @@ begin
 
          begin
           writeln ('HA SELECCIONADO 20 VIAJES (METRO Y METROBUS)');
-          viajes := '20 VIAJES';
+          viajes := ('20 VIAJES');
           writeln ('|  j.METROTARJETA INTEGRADA  |   ROJO  |   20 VIAJES (METRO Y METROBUS)   |');
-          pasaje := '  j.METROTARJETA INTEGRADA  |   ROJO  |   20 VIAJES (METRO Y METROBUS) ';
+          pasaje := ('  j.METROTARJETA INTEGRADA  |   ROJO  |   20 VIAJES (METRO Y METROBUS) ');
          end
         else if viaje = 2 then
          begin
            writeln ('HA SELECCIONADO 30 VIAJES');
-           viajes := '30 VIAJES';
+           viajes := ('30 VIAJES');
            writeln ('|  j.METROTARJETA  |   ROJO  |   30 VIAJES  (METRO Y METROBUS) |');
-           pasaje := '| j.METROTARJETA  |   ROJO  |   30 VIAJES  (METRO Y METROBUS) |';
+           pasaje := ('| j.METROTARJETA  |   ROJO  |   30 VIAJES  (METRO Y METROBUS) |');
          end
          else if viaje = 3 then
           begin
            writeln ('HA SELECCIONADO 40 VIAJES');
-           viajes := '40 VIAJES';
+           viajes := ('40 VIAJES');
            writeln ('|  j.METROTARJETA INTEGRADA  |   ROJO  |   40 VIAJES (METRO Y METROBUS)   |');
-           pasaje := '| j.METROTARJETA INTEGRADA  |   ROJO  |   40 VIAJES (METRO Y METROBUS)  |';
+           pasaje := ('| j.METROTARJETA INTEGRADA  |   ROJO  |   40 VIAJES (METRO Y METROBUS)  |');
            end
 
         else
@@ -601,14 +601,14 @@ begin
 
                              begin
                               writeln ('SALIDA: PLAZA VENEZUELA');
-                              salidat := 'PLAZA VENEZUELA';
+                              salidat := ('PLAZA VENEZUELA');
                              end
 
                            else if salida = 4 then
 
                              begin
                               writeln ('SALIDA: MIRANDA');
-                              salidat := 'MIRANDA';
+                              salidat := ('MIRANDA');
                              end
 
                       else
@@ -623,28 +623,28 @@ begin
 
                        begin
                        writeln ('LLEGADA: PROPATRIA');
-                       llegadat:= 'PROPATRIA';
+                       llegadat:= ('PROPATRIA');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: CAPITOLIO ');
-                         llegadat := 'CAPITOLIO';
+                         llegadat := ('CAPITOLIO');
                          end
 
                             else if llegada = 3 then
 
                             begin
                             writeln ('LLEGADA: PLAZA VENEZUELA');
-                            llegadat := 'PLAZA VENEZUELA';
+                            llegadat := ('PLAZA VENEZUELA');
                             end
 
                               else if llegada = 4 then
 
                               begin
                               writeln ('LLEGADA: MIRANDA');
-                              llegadat := 'MIRANDA';
+                              llegadat := ('MIRANDA');
                               end
                        else
                            begin
@@ -668,28 +668,28 @@ begin
 
                         begin
                         writeln ('SALIDA: PEREZ BONALDE');
-                        salidat := 'PEREZ BONLADE';
+                        salidat := ('PEREZ BONLADE');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: LA HOYADA');
-                           salidat := 'LA HOYADA';
+                           salidat := ('LA HOYADA');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: SABANA GRANDE');
-                              salidat := 'SABANA GRANDE';
+                              salidat := ('SABANA GRANDE');
                              end
 
                            else if salida = 4 then
 
                              begin
                               writeln ('SALIDA: LOS DOS CAMINOS');
-                              salidat := 'LOS DOS CAMINOS';
+                              salidat := ('LOS DOS CAMINOS');
                              end
 
                       else
@@ -704,7 +704,7 @@ begin
 
                        begin
                        writeln ('LLEGADA: PEREZ BONALDE');
-                       llegadat:= 'PEREZ BONALDE';
+                       llegadat:= ('PEREZ BONALDE');
                        end
 
                        else if llegada = 2 then
