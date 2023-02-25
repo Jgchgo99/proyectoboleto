@@ -1563,7 +1563,7 @@ begin
 
                             begin
                             writeln ('LLEGADA: COCHE');
-                            llegadat := 'COCHE';
+                            llegadat := ('COCHE');
                             end
 
                        else
@@ -1598,7 +1598,7 @@ begin
                'a':
                   begin
 
-                   ticket := 02;
+                   ticket := (02);
 
                    writeln (' LINEA 4 - SUBESTACION A');
                    writeln ('----------------------------------------------------');
@@ -1611,21 +1611,21 @@ begin
 
                         begin
                         writeln ('SALIDA: ZONA RENTAL');
-                        salidat := 'ZONA RENTAL';
+                        salidat := ('ZONA RENTAL');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: MATERNIDAD');
-                           salidat := 'MATERNIDAD';
+                           salidat := ('MATERNIDAD');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: ANTIMANO');
-                              salidat := 'ANTIMANO';
+                              salidat := ('ANTIMANO');
                              end
 
                       else
