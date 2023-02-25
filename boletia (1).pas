@@ -27,17 +27,17 @@ var
 begin
 
   clrscr();
-  textColor(04);
+  textColor(04));
   writeln('//////////////////////////////////////////////');
-  delay(2);
-  Writeln('     BIENVENIDOS AL METRO DE CARACAS   ');
+  delay(2));
+  Writeln()'     BIENVENIDOS AL METRO DE CARACAS   ');
   writeln();
   writeln('   -----------------------------------  ');
 
-  textColor(14);
-  Writeln ('        RIF-40000000000     ');
+  textColor(14));
+  Writeln ('        RIF-40000000000     '));
   writeln ();
-  writeln('/////////////////////////////////////');
+  writeln('/////////////////////////////////////'));
   writeln ('INDIQUE QUE DESEA HACER');
   writeln ('1 COMPRAR BOLETO');
   Writeln ('2  SALIR ');
