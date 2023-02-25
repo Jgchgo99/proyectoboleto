@@ -27,17 +27,17 @@ var
 begin
 
   clrscr();
-  textColor(04);
+  textColor(04));
   writeln('//////////////////////////////////////////////');
-  delay(2);
-  Writeln('     BIENVENIDOS AL METRO DE CARACAS   ');
+  delay(2));
+  Writeln()'     BIENVENIDOS AL METRO DE CARACAS   ');
   writeln();
   writeln('   -----------------------------------  ');
 
-  textColor(14);
-  Writeln ('        RIF-40000000000     ');
+  textColor(14));
+  Writeln ('        RIF-40000000000     '));
   writeln ();
-  writeln('/////////////////////////////////////');
+  writeln('/////////////////////////////////////'));
   writeln ('INDIQUE QUE DESEA HACER');
   writeln ('1 COMPRAR BOLETO');
   Writeln ('2  SALIR ');
@@ -1001,7 +1001,7 @@ begin
 
                               begin
                               writeln ('SALIDA: PALO VERDE');
-                              salidat := 'PALO VERDE';
+                              salidat := ('PALO VERDE');
                               end
 
                           else
@@ -1017,14 +1017,14 @@ begin
 
                              begin
                              writeln ('LLEGADA: CA¥O AMARILLO');
-                             llegadat:= 'CA¥O AMARILLO';
+                             llegadat:= ('CA¥O AMARILLO');
                              end
 
                              else if llegada = 2 then
 
                                 begin
                                 writeln ('LLEGADA: PALO VERDE ');
-                                llegadat := 'PALO VERDE';
+                                llegadat := ('PALO VERDE');
                                 end
 
                            else
@@ -1060,7 +1060,7 @@ begin
                'a':
                   begin
 
-                   ticket := 02;
+                   ticket := (02);
 
                    writeln (' LINEA 2 - SUBESTACION A');
                    writeln ('---------------------------------------------');
@@ -1073,21 +1073,21 @@ begin
 
                         begin
                         writeln ('SALIDA: EL SILENCIO');
-                        salidat := 'EL SILENCIO';
+                        salidat := ('EL SILENCIO');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: LA PAZ');
-                           salidat := 'LA PAZ';
+                           salidat := ('LA PAZ');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: MAMERA');
-                              salidat := 'MAMERA';
+                              salidat := ('MAMERA)';
                              end
 
                       else
@@ -1102,21 +1102,21 @@ begin
 
                        begin
                        writeln ('LLEGADA: EL SILENCIO');
-                       llegadat:= 'EL SILENCIO';
+                       llegadat:= ('EL SILENCIO');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: LA PAZ');
-                         llegadat := 'LA PAZ';
+                         llegadat := ('LA PAZ');
                          end
 
                             else if llegada = 3 then
 
                             begin
                             writeln ('LLEGADA: MAMERA');
-                            llegadat := 'MAMERA';
+                            llegadat := ('MAMERA');
                             end
 
                        else
@@ -1130,7 +1130,7 @@ begin
                   begin
 
 
-                   ticket := 02;
+                   ticket := (02);
 
                    writeln (' LINEA 2 - SUBESTACION B');
                    writeln ('--------------------------------------------------');
@@ -1143,21 +1143,21 @@ begin
 
                         begin
                         writeln ('SALIDA: CAPUCHINOS');
-                        salidat := 'CAPUCHINOS';
+                        salidat := ('CAPUCHINOS');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: LA YAGUARA');
-                           salidat := 'LA YAGUARA';
+                           salidat := ('LA YAGUARA');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: CARICUAO');
-                              salidat := 'CARICUAO';
+                              salidat := ('CARICUAO');
                              end
 
                       else
@@ -1172,21 +1172,21 @@ begin
 
                        begin
                        writeln ('LLEGADA: CAPUCHINOS');
-                       llegadat:= 'CAPUCHINOS';
+                       llegadat:= ('CAPUCHINOS');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: LA YAGUARA');
-                         llegadat := 'LA YAGURA';
+                         llegadat := ('LA YAGURA');
                          end
 
                             else if llegada = 3 then
 
                             begin
                             writeln ('LLEGADA: CARICUAO');
-                            llegadat := 'CARICUAO';
+                            llegadat := ('CARICUAO');
                             end
 
                        else
@@ -1200,7 +1200,7 @@ begin
                'c':
                   begin
 
-                   ticket := 02;
+                   ticket := (02);
 
                    writeln (' LINEA 2 - SUBESTACION C');
                    writeln ('-------------------------------------------------');
@@ -1213,21 +1213,21 @@ begin
 
                         begin
                         writeln ('SALIDA: MATERNIDAD');
-                        salidat := 'MATERNIDAD';
+                        salidat := ('MATERNIDAD');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: CARAPITA');
-                           salidat := 'CARAPITA';
+                           salidat := ('CARAPITA');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: ZOOLOGICO');
-                              salidat := 'ZOOLOGICO';
+                              salidat := ('ZOOLOGICO');
                              end
 
                       else
@@ -1242,21 +1242,21 @@ begin
 
                        begin
                        writeln ('LLEGADA: MATERNIDAD');
-                       llegadat:= 'MATERNIDAD';
+                       llegadat:= ('MATERNIDAD');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: CARAPITA');
-                         llegadat := 'CARAPITA';
+                         llegadat := ('CARAPITA');
                          end
 
                             else if llegada = 3 then
 
                             begin
                             writeln ('LLEGADA: ZOOLOGICO');
-                            llegadat := 'ZOOLOGICO';
+                            llegadat := ('ZOOLOGICO');
                             end
 
                        else
@@ -1270,7 +1270,7 @@ begin
                'd':
                   begin
 
-                   ticket := 02;
+                   ticket := (02);
 
                    writeln (' LINEA 2 - SUBESTACION D');
                    writeln ('---------------------------------------------------------------');
@@ -1283,21 +1283,21 @@ begin
 
                         begin
                         writeln ('SALIDA: ARTIGUAS');
-                        salidat := 'ARTIGUAS';
+                        salidat := ('ARTIGUAS');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: ANTIMANO');
-                           salidat := 'ANTIMANO';
+                           salidat := ('ANTIMANO');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: RUIZ PINEDA / LAS ADJUNTAS');
-                              salidat := 'RUIZ PINEDA / LAS ADJUNTAS';
+                              salidat := ('RUIZ PINEDA / LAS ADJUNTAS');
                              end
 
                       else
@@ -1312,21 +1312,21 @@ begin
 
                        begin
                        writeln ('LLEGADA: ARTIGUAS');
-                       llegadat:= 'ARTIGUAS';
+                       llegadat:= ('ARTIGUAS');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: ANTIMANO');
-                         llegadat := 'ANTIMANO';
+                         llegadat := ('ANTIMANO');
                          end
 
                             else if llegada = 3 then
 
                             begin
                             writeln ('LLEGADA: RUIZ PINEDA / LAS ADJUNTAS');
-                            llegadat := 'RUIZ PINEDA / LAS ADJUNTAS';
+                            llegadat := ('RUIZ PINEDA / LAS ADJUNTAS');
                             end
 
                        else
@@ -1363,7 +1363,7 @@ begin
                'a':
                   begin
 
-                   ticket := 02;
+                   ticket := (02);
 
                    writeln (' LINEA 3 - SUBESTACION A');
                    writeln ('---------------------------------------------------');
@@ -1376,21 +1376,21 @@ begin
 
                         begin
                         writeln ('SALIDA: PLAZA VENEZUELA');
-                        salidat := 'PLAZA VENEZUELA';
+                        salidat := ('PLAZA VENEZUELA');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: LA BANDERA');
-                           salidat := 'LA BANDERA';
+                           salidat := ('LA BANDERA');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: COCHE');
-                              salidat := 'COCHE';
+                              salidat := ('COCHE');
                              end
 
 
@@ -1406,21 +1406,21 @@ begin
 
                        begin
                        writeln ('LLEGADA: PLAZA VENEZUELA');
-                       llegadat:= 'PLAZA VENEZUELA';
+                       llegadat:= ('PLAZA VENEZUELA');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: LA BANDERA ');
-                         llegadat := 'LA BANDERA';
+                         llegadat := ('LA BANDERA');
                          end
 
                             else if llegada = 3 then
 
                             begin
                             writeln ('LLEGADA: COCHE');
-                            llegadat := 'COCHE';
+                            llegadat := ('COCHE');
                             end
 
                        else
@@ -1433,7 +1433,7 @@ begin
                'b':
                   begin
 
-                     ticket := 02;
+                     ticket := (02);
 
                    writeln (' LINEA 3 - SUBESTACION B');
                    writeln ('---------------------------------------------------------');
@@ -1446,21 +1446,21 @@ begin
 
                         begin
                         writeln ('SALIDA: CIUDAD UNIVERSITARIA');
-                        salidat := 'CIUDAD UNIVERSITARIA';
+                        salidat := ('CIUDAD UNIVERSITARIA');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: EL VALLE');
-                           salidat := 'EL VALLE ';
+                           salidat := ('EL VALLE');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: MERCADO');
-                              salidat := 'MERCADO';
+                              salidat := ('MERCADO');
                              end
 
 
@@ -1476,21 +1476,21 @@ begin
 
                        begin
                        writeln ('LLEGADA: CIUDAD UNIVERSITARIA');
-                       llegadat:= 'CIUDAD UNIVERSITARIA';
+                       llegadat:= ('CIUDAD UNIVERSITARIA');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: EL VALLE ');
-                         llegadat := 'EL VALLE';
+                         llegadat := ('EL VALLE');
                          end
 
                             else if llegada = 3 then
 
                             begin
                             writeln ('LLEGADA: MERCADO');
-                            llegadat := 'MERCADO';
+                            llegadat := ('MERCADO');
                             end
 
                        else
@@ -1506,7 +1506,7 @@ begin
                   begin
 
 
-                    ticket := 02;
+                    ticket := (02);
 
                    writeln (' LINEA 3 - SUBESTACION C ');
                    writeln ('---------------------------------------------------');
@@ -1519,21 +1519,21 @@ begin
 
                         begin
                         writeln ('SALIDA: PLAZA VENEZUELA');
-                        salidat := 'PLAZA VENEZUELA';
+                        salidat := ('PLAZA VENEZUELA');
                         end
 
                         else if salida = 2 then
 
                            begin
                            writeln ('SALIDA: LA BANDERA');
-                           salidat := 'LA BANDERA';
+                           salidat := ('LA BANDERA');
                            end
 
                            else if salida = 3 then
 
                              begin
                               writeln ('SALIDA: COCHE');
-                              salidat := 'COCHE';
+                              salidat := ('COCHE');
                              end
 
 
@@ -1549,14 +1549,14 @@ begin
 
                        begin
                        writeln ('LLEGADA: PLAZA VENEZUELA');
-                       llegadat:= 'PLAZA VENEZUELA';
+                       llegadat:= ('PLAZA VENEZUELA');
                        end
 
                        else if llegada = 2 then
 
                          begin
                          writeln ('LLEGADA: LA BANDERA ');
-                         llegadat := 'LA BANDERA';
+                         llegadat := ('LA BANDERA');
                          end
 
                             else if llegada = 3 then
