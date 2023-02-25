@@ -52,7 +52,7 @@ begin
     writeln ('  INGRESE SU NOMBBRE');
     readln(NOMBRE);
     writeln ('-----------------------------------');
-    writeln ('¨CUANTOS BOLETOS DESEAS COMPRAR?');
+    writeln ('Â¨CUANTOS BOLETOS DESEAS COMPRAR?');
     readln(boletos);
     clrscr();
     writeln(' ---------------------------------  ');
@@ -148,12 +148,12 @@ begin
          writeln ('Opcion incorrecta, cerrando...');
          end;
         writeln ('-----------------------------------------------------------');
-        writeln ('FACTURACIàN');
+        writeln ('FACTURACIÃ N');
         writeln ('PRECIO DEL BOLETO: 4,00 BS');
 
-        preciot:= ( 4.00 * boletos);
+        preciot:= ( 4.00 * boletos));
         write ('PRECIO TOTAL A PAGAR: ', preciot:5:2);
-        writeln (' BS');
+        writeln (' BS'));
         ticket:= (01);
     	writeln ('-----------------------------------------------------------------------------------------------------');
         delay (2500);
@@ -208,7 +208,7 @@ begin
          writeln ('Opcion incorrecta, cerrando...');
          end;
         writeln ('-----------------------------------------------------------');
-        writeln ('FACTURACIàN');
+        writeln ('FACTURACIÃ N');
         writeln ('PRECIO DEL BOLETO: 6,00 BS');
 
         preciot:= ( 6.00 * boletos);
@@ -269,7 +269,7 @@ begin
          writeln ('Opcion incorrecta, cerrando...');
          end;
         writeln ('-----------------------------------------------------------');
-        writeln ('FACTURACIàN');
+        writeln ('FACTURACIÃ N');
         writeln ('PRECIO DEL BOLETO: 11,00 BS');
 
         preciot:= ( 11.00 * boletos);
@@ -330,7 +330,7 @@ begin
          writeln ('Opcion incorrecta, cerrando...');
          end;
         writeln ('----------------------------------------------------------------------------');
-        writeln ('FACTURACIàN');
+        writeln ('FACTURACIÃ N');
         writeln ('PRECIO DEL BOLETO: 13,00 BS');
 
         preciot:= ( 13.00 * boletos);
@@ -383,7 +383,7 @@ begin
          writeln ('Opcion incorrecta, cerrando...');
          end;
         writeln ('----------------------------------------------------------------------------');
-        writeln ('FACTURACIàN');
+        writeln ('FACTURACIÃ N');
         writeln ('PRECIO DEL BOLETO: 20,00 BS');
 
         preciot:= ( 20.00 * boletos);
@@ -436,7 +436,7 @@ begin
          writeln ('Opcion incorrecta, cerrando...');
          end;
         writeln ('----------------------------------------------------------------------------');
-        writeln ('FACTURACIàN');
+        writeln ('FACTURACIÃ N');
         writeln ('PRECIO DEL BOLETO: 30,00 BS');
 
         preciot:= ( 30.00 * boletos);
@@ -479,7 +479,7 @@ begin
         writeln ('| PLAZA SUCRE     - PARQUE CARABOBO    - CHACAITO          - LOS CORTIJOS    |');
         writeln ('| GATO NEGRO      - BELLAS ARTES       - CHACAO            - LA CALIFORNIA   |');
         writeln ('| AGUA SALUL      - COLEGIO DE ING     - ALTAMIRA          - PETARE          |');
-        writeln ('| CA¥O AMRILLO                                             - PALO VERDE      |');
+        writeln ('| CAÂ¥O AMRILLO                                             - PALO VERDE      |');
         writeln (' ----------------------------------------------------------------------------');
 
         writeln ();
@@ -561,7 +561,7 @@ begin
               writeln ('| c. - PLAZA SUCRE     - PARQUE CARABOBO    - CHACAITO          - LOS CORTIJOS    |');
               writeln ('| d. - GATO NEGRO      - BELLAS ARTES       - CHACAO            - LA CALIFORNIA   |');
               writeln ('| e. - AGUA SALUL      - COLEGIO DE ING     - ALTAMIRA          - PETARE          |');
-              writeln ('| f. - CA¥O AMRILLO                                             - PALO VERDE      |');
+              writeln ('| f. - CAÂ¥O AMRILLO                                             - PALO VERDE      |');
               writeln (' ---------------------------------------------------------------------------------');
 
               writeln ('Seleccione la LINEA DE SUBESTACIONES');
@@ -985,7 +985,7 @@ begin
                           writeln ('LINEA 1 - SUBESTACONES F');
                           ticket := 02;
                           writeln ('-------------------------------------');
-                          writeln (' 1 - CA¥O AMARILLO   2 - PALO VERDE  |');
+                          writeln (' 1 - CAÂ¥O AMARILLO   2 - PALO VERDE  |');
                           writeln ('-------------------------------------');
                           writeln ('INGRESE ESTACION DE SALIDA');
                           readln(salida);
@@ -993,8 +993,8 @@ begin
                           if salida = 1 then
 
                             begin
-                            writeln ('SALIDA: CA¥O AMARILLO');
-                            salidat := 'CA¥O AMARILLO';
+                            writeln ('SALIDA: CAÂ¥O AMARILLO');
+                            salidat := 'CAÂ¥O AMARILLO';
                             end
 
                             else if salida = 2 then
@@ -1016,8 +1016,8 @@ begin
                           if llegada = 1 then
 
                              begin
-                             writeln ('LLEGADA: CA¥O AMARILLO');
-                             llegadat:= 'CA¥O AMARILLO';
+                             writeln ('LLEGADA: CAÂ¥O AMARILLO');
+                             llegadat:= 'CAÂ¥O AMARILLO';
                              end
 
                              else if llegada = 2 then
@@ -2680,7 +2680,7 @@ begin
           writeln ('CARGANDO...');
           delay (2500);
           writeln ('---------------------------------');
-          writeln ('¨ESTA SEGURO DE SU COMPRA?');
+          writeln ('Â¨ESTA SEGURO DE SU COMPRA?');
           writeln ('1.SI ');
           writeln ('2.NO ');
           readln (comprar);
@@ -2807,7 +2807,7 @@ begin
                               writeln ('|                            |');
                               writeln (' ----------------------------');
                               writeln ();
-                              writeln ('¨DESEA USAR UN BOLETO?');
+                              writeln ('Â¨DESEA USAR UN BOLETO?');
                               writeln ('1. SI');
                               writeln ('2. NO');
                               writeln ();
@@ -2830,7 +2830,7 @@ begin
                                     writeln ('|                            |');
                                     writeln ('| BOLETOS RESTANTES: ',bolet);
                                     writeln ('|                            |');
-                                    writeln ('| ­VUELVA PRONTO!');
+                                    writeln ('| Â­VUELVA PRONTO!');
                                     writeln (' ----------------------------');
 
                                     delay (5000);
